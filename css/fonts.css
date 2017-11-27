@@ -1,0 +1,207 @@
+@font-face {
+  font-family: AvenirNextCyr-MediumItalic;
+  src: url(../fonts/AvenirNextCyr-MediumItalic.eot);
+  src: url(../fonts/AvenirNextCyr-MediumItalic.ttf);
+  src: url(../fonts/AvenirNextCyr-MediumItalic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Regular;
+  src: url(../fonts/AvenirNextCyr-Regular.eot);
+  src: url(../fonts/AvenirNextCyr-Regular.ttf);
+  src: url(../fonts/AvenirNextCyr-Regular.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Bold;
+  src: url(../fonts/AvenirNextCyr-Bold.eot);
+  src: url(../fonts/AvenirNextCyr-Bold.ttf);
+  src: url(../fonts/AvenirNextCyr-Bold.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-BoldItalic;
+  src: url(../fonts/AvenirNextCyr-BoldItalic.eot);
+  src: url(../fonts/AvenirNextCyr-BoldItalic.ttf);
+  src: url(../fonts/AvenirNextCyr-BoldItalic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Demi;
+  src: url(../fonts/AvenirNextCyr-Demi.eot);
+  src: url(../fonts/AvenirNextCyr-Demi.ttf);
+  src: url(../fonts/AvenirNextCyr-Demi.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-DemiItalic;
+  src: url(../fonts/AvenirNextCyr-DemiItalic.eot);
+  src: url(../fonts/AvenirNextCyr-DemiItalic.ttf);
+  src: url(../fonts/AvenirNextCyr-DemiItalic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Heavy;
+  src: url(../fonts/AvenirNextCyr-Heavy.eot);
+  src: url(../fonts/AvenirNextCyr-Heavy.ttf);
+  src: url(../fonts/AvenirNextCyr-Heavy.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-HeavyItalic;
+  src: url(../fonts/AvenirNextCyr-HeavyItalic.eot);
+  src: url(../fonts/AvenirNextCyr-HeavyItalic.ttf);
+  src: url(../fonts/AvenirNextCyr-HeavyItalic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Italic;
+  src: url(../fonts/AvenirNextCyr-Italic.eot);
+  src: url(../fonts/AvenirNextCyr-Italic.ttf);
+  src: url(../fonts/AvenirNextCyr-Italic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Light;
+  src: url(../fonts/AvenirNextCyr-Light.eot);
+  src: url(../fonts/AvenirNextCyr-Light.ttf);
+  src: url(../fonts/AvenirNextCyr-Light.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-LightItalic;
+  src: url(../fonts/AvenirNextCyr-LightItalic.eot);
+  src: url(../fonts/AvenirNextCyr-LightItalic.ttf);
+  src: url(../fonts/AvenirNextCyr-LightItalic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Medium;
+  src: url(../fonts/AvenirNextCyr-Medium.eot);
+  src: url(../fonts/AvenirNextCyr-Medium.ttf);
+  src: url(../fonts/AvenirNextCyr-Medium.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-Thin;
+  src: url(../fonts/AvenirNextCyr-Thin.eot);
+  src: url(../fonts/AvenirNextCyr-Thin.ttf);
+  src: url(../fonts/AvenirNextCyr-Thin.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-ThinItalic;
+  src: url(../fonts/AvenirNextCyr-ThinItalic.eot);
+  src: url(../fonts/AvenirNextCyr-ThinItalic.ttf);
+  src: url(../fonts/AvenirNextCyr-ThinItalic.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-UltraLight;
+  src: url(../fonts/AvenirNextCyr-UltraLight.eot);
+  src: url(../fonts/AvenirNextCyr-UltraLight.ttf);
+  src: url(../fonts/AvenirNextCyr-UltraLight.woff); }
+
+@font-face {
+  font-family: AvenirNextCyr-UltraLightIt;
+  src: url(../fonts/AvenirNextCyr-UltraLightIt.eot);
+  src: url(../fonts/AvenirNextCyr-UltraLightIt.ttf);
+  src: url(../fonts/AvenirNextCyr-UltraLightIt.woff); }
+
+@font-face {
+  font-family: FontAwesome;
+  src: url(../fonts/FontAwesome.otf); }
+
+header {
+  font-family: AvenirNextCyr-Regular; }
+
+.top .text {
+  font-size: 14px;
+  color: #555555;
+  font-weight: 400; }
+  .top .text span {
+    font-size: 20px;
+    color: #2c3030;
+    font-weight: 700;
+    font-family: AvenirNextCyr-Bold;
+    letter-spacing: 0; }
+
+.top .phone span {
+  font-size: 18px; }
+
+.top .button {
+  font-family: AvenirNextCyr-Bold;
+  font-size: 14px;
+  color: #ffffff; }
+
+.menu-items {
+  color: #fff;
+  font-family: AvenirNextCyr-Medium; }
+
+.form p {
+  color: #2c3030;
+  font-size: 20px;
+  font-family: AvenirNextCyr-Bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 28px; }
+
+.form input[type='text'] {
+  color: #a1a1a1;
+  font-family: AvenirNextCyr-Light; }
+
+.form label {
+  color: #555555;
+  font-family: AvenirNextCyr-Regular;
+  font-size: 13px; }
+
+.form input[type='submit'] {
+  color: #ffffff;
+  font-family: AvenirNextCyr-Bold;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.container .caption {
+  font-size: 36px;
+  font-family: AvenirNextCyr-Heavy;
+  line-height: 52px;
+  color: #2c3030;
+  text-transform: uppercase; }
+
+.container .paragraph {
+  color: #555555;
+  line-height: 30px;
+  font-family: AvenirNextCyr-Regular;
+  font-size: 16px;
+  letter-spacing: -0.16px; }
+
+.block .caption {
+  font-size: 36px;
+  font-family: AvenirNextCyr-Heavy;
+  color: #2c3030; }
+
+.block .p {
+  font-size: 22px;
+  font-family: AvenirNextCyr-Bold;
+  color: #2c3030;
+  line-height: 30px; }
+
+.block .p1 {
+  font-size: 16px;
+  font-family: AvenirNextCyr-Regular;
+  color: #555555;
+  line-height: 24px; }
+
+.block .p2 {
+  font-size: 20px;
+  color: #555555;
+  font-family: AvenirNextCyr-Bold; }
+
+.block .p3 {
+  font-size: 16px;
+  font-family: AvenirNextCyr-Demi;
+  color: #ff8b00; }
+
+.equipment .block .p2 {
+  font-size: 22px; }
+
+.equipment .p1 {
+  line-height: 28px;
+  color: #555555; }
+
+.equipment .container:nth-child(2) .p2 {
+  line-height: 30px; }
+
+.equipment .container:nth-child(2) .p1 {
+  line-height: 25px; }
+
+.rsaquo {
+  font-size: 15px;
+  display: inline;
+  padding-left: 2px; }

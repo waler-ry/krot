@@ -1,0 +1,94 @@
+.equipment {
+  margin-left: -2px; }
+  .equipment .car {
+    position: absolute;
+    right: -22%;
+    top: -49%;
+    z-index: 1; }
+  .equipment .photo {
+    padding-right: 2.8%;
+    padding-bottom: 24px; }
+  .equipment .photo:nth-child(4n) {
+    padding-right: 0; }
+  .equipment .container {
+    padding-top: 7px;
+    background: white;
+    position: relative;
+    overflow: hidden; }
+  .equipment .block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2; }
+  .equipment .caption {
+    margin-bottom: 27px;
+    margin-left: 1px; }
+  .equipment .p2 {
+    width: 57%;
+    line-height: 28px;
+    margin-bottom: 13px; }
+  .equipment .p1 {
+    width: 41.5%;
+    margin-bottom: 29px; }
+  .equipment .image {
+    padding-top: 18px;
+    margin-bottom: 51px; }
+  .equipment .shadow-block {
+    background: white;
+    content: 'dfg';
+    box-shadow: #000101 -15px 26px 40px;
+    opacity: 0.1;
+    width: 353px;
+    height: 287px;
+    background: white;
+    position: absolute;
+    z-index: 1; }
+  .equipment .man2 {
+    position: absolute;
+    left: -83px;
+    top: 52px; }
+  .equipment .container:nth-child(2) {
+    padding-top: 66px;
+    overflow: hidden;
+    background: #ece9e2 url("../img/bg3.png") -296px 183px no-repeat; }
+    .equipment .container:nth-child(2) .bg4 {
+      position: absolute;
+      left: 60%;
+      top: -67%; }
+    .equipment .container:nth-child(2) .block {
+      margin-left: 36.3%;
+      margin-bottom: 50px; }
+    .equipment .container:nth-child(2) .p2 {
+      margin-left: 3px;
+      width: 70%; }
+    .equipment .container:nth-child(2) .caption {
+      margin-bottom: 20px; }
+    .equipment .container:nth-child(2) .form {
+      width: 361px;
+      margin-left: 3px;
+      margin-top: 29px;
+      margin-right: 29px; }
+    .equipment .container:nth-child(2) .botul {
+      display: flex;
+      flex-direction: row;
+      width: 88%; }
+      .equipment .container:nth-child(2) .botul .p1 {
+        align-items: center;
+        margin-bottom: 33px; }
+      .equipment .container:nth-child(2) .botul .img-block {
+        width: 40px;
+        height: 40px;
+        margin-right: 19px; }
+        .equipment .container:nth-child(2) .botul .img-block:before {
+          width: 40px;
+          height: 40px; }
+        .equipment .container:nth-child(2) .botul .img-block img {
+          margin-right: 15px;
+          padding: 0 13px; }
+    .equipment .container:nth-child(2) .p1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%; }
+    .equipment .container:nth-child(2) .ul {
+      margin-top: 71px;
+      width: 355px; }

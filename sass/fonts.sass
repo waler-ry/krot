@@ -1,0 +1,113 @@
+$fonts: (MediumItalic, Regular, Bold, BoldItalic, Demi, DemiItalic, Heavy, HeavyItalic, Italic, Light, LightItalic, Medium, Thin, ThinItalic, UltraLight, UltraLightIt)
+
+@each $font in $fonts 
+	@font-face
+		font-family: AvenirNextCyr-#{$font}
+		src: url(../fonts/AvenirNextCyr-#{$font}.eot)
+		src: url(../fonts/AvenirNextCyr-#{$font}.ttf)
+		src: url(../fonts/AvenirNextCyr-#{$font}.woff)
+
+@font-face
+	font-family: FontAwesome
+	src: url(../fonts/FontAwesome.otf)
+
+header
+	font-family: AvenirNextCyr-Regular
+
+.top
+	.text
+		font-size: 14px
+		color: #555555
+		font-weight: 400
+		span
+			font-size: 20px
+			color: #2c3030
+			font-weight: 700
+			font-family: AvenirNextCyr-Bold
+			letter-spacing: 0
+	.phone
+		span
+			font-size: 18px
+	.button
+		font-family: AvenirNextCyr-Bold
+		font-size: 14px
+		color: #ffffff
+
+.menu-items
+	color: #fff
+	font-family: AvenirNextCyr-Medium
+
+.form
+	p 
+		color: #2c3030
+		font-size: 20px
+		font-family: AvenirNextCyr-Bold
+		text-transform: uppercase
+		text-align: center
+		line-height: 28px
+
+	input[type='text']
+		color: #a1a1a1
+		font-family: AvenirNextCyr-Light
+	label
+		color: #555555
+		font-family: AvenirNextCyr-Regular
+		font-size: 13px
+	input[type='submit']
+		color: #ffffff
+		font-family: AvenirNextCyr-Bold
+		font-size: 14px
+		text-transform: uppercase
+.container
+	.caption
+		font-size: 36px
+		font-family: AvenirNextCyr-Heavy
+		line-height: 52px
+		color: #2c3030
+		text-transform: uppercase
+	.paragraph
+		color: #555555
+		line-height: 30px
+		font-family: AvenirNextCyr-Regular
+		font-size: 16px
+		letter-spacing: -0.16px 
+
+.block
+	.caption
+		font-size: 36px
+		font-family: AvenirNextCyr-Heavy
+		color: #2c3030
+	.p
+		font-size: 22px
+		font-family: AvenirNextCyr-Bold
+		color: #2c3030
+		line-height: 30px
+	.p1
+		font-size: 16px
+		font-family: AvenirNextCyr-Regular
+		color: #555555
+		line-height: 24px
+	.p2 
+		font-size: 20px
+		color: #555555
+		font-family: AvenirNextCyr-Bold
+	.p3 
+		font-size: 16px
+		font-family: AvenirNextCyr-Demi
+		color: #ff8b00
+.equipment
+	.block .p2
+		font-size: 22px	
+	.p1
+		line-height: 28px
+		color: #555555
+	.container:nth-child(2)
+		.p2
+			line-height: 30px
+		.p1 
+			line-height: 25px
+
+.rsaquo
+	font-size: 15px
+	display: inline
+	padding-left: 2px

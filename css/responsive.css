@@ -1,0 +1,76 @@
+@media screen and (max-width: 1160px) {
+  .car {
+    opacity: 0.2; }
+  .icons {
+    display: flex;
+    justify-content: space-between; }
+    .icons .services, .icons .logo, .icons .phone {
+      padding-right: 5px;
+      padding-left: 5px;
+      display: flex;
+      flex-direction: column; }
+  .logo img {
+    padding-right: 5px;
+    padding-left: 5px; }
+  .text {
+    text-align: center; }
+  .top-part {
+    padding: 5px; }
+  .container .slide-part, .block {
+    padding-right: 10px;
+    padding-left: 10px; }
+  .card {
+    margin: 5px;
+    width: 32%; }
+  .card-block {
+    display: flex;
+    justify-content: flex-start; }
+  .equipment .p2, .equipment .p1 {
+    width: 80%; }
+  .equipment .photo {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%; }
+  .equipment .image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 1000px) {
+  .top .text span {
+    font-family: AvenirNextCyr-Regular;
+    font-size: 16px; }
+  .menu {
+    flex-wrap: wrap; }
+  .menu a {
+    width: 32%; }
+  .dark {
+    display: none; }
+  .button {
+    width: 172px; }
+  .logo img {
+    width: 127px;
+    height: 89px; }
+  .man1, .man2 {
+    display: none; }
+  .container .caption, .container .paragraph {
+    width: 100%; }
+  .card {
+    width: 48%; } }
+
+@media screen and (max-width: 750px) {
+  .menu a {
+    width: 49%;
+    height: 30px; }
+  .text {
+    display: none; }
+  .card {
+    width: 51%;
+    margin-right: auto;
+    margin-left: auto; }
+  .block:nth-child(2) .card {
+    width: 51%;
+    margin-right: auto;
+    margin-left: auto; }
+  .card:nth-child(3), .card:nth-child(6) {
+    margin-right: auto; } }

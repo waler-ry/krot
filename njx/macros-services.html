@@ -1,0 +1,119 @@
+{% macro ul() %}
+	<ul>
+		{% set ul = ['Безупречный сервис и оперативная работа для наших клиентов', 'Применение только эффективных методик и технологий', 'Работы проводятся в гипермаркетах, офисах, домах и квартирах', 'Оставляем чистую квартиру после ремонтных работ'] %}
+		{% for li in ul %}
+		<li> {{ li }} </li>
+		{% endfor %}
+	</ul>
+{% endmacro %}
+
+<!-- ul1 и ul2 продумать для страницы Services -->
+{% macro ul1() %}
+	<div class="ul">
+		{% set ul = ['Безупречный сервис и оперативная работа для наших клиентов', 'Применение только эффективных методик и технологий', 'Работы проводятся в гипермаркетах, офисах, домах и квартирах', 'Оставляем чистую квартиру после ремонтных работ'] %}
+		{% for li in ul %}
+		
+		<div class="p1">
+			<div class="img-block">
+				<img src="../img/List.png" alt="List" >
+			</div>
+				<div class="text">{{ li }}</div>
+		</div>
+		{% endfor %}
+	</div>
+{% endmacro %}
+
+{% macro ul2() %}
+	<ul>
+		{% set ul = ['Безупречный сервис и оперативная работа для наших клиентов', 'Применение только эффективных методик и технологий', 'Работы проводятся в гипермаркетах, офисах, домах и квартирах', 'Оставляем чистую квартиру после ремонтных работ'] %}
+		{% for li in ul %}
+		<li> {{ li }} </li>
+		{% endfor %}
+	</ul>
+{% endmacro %}
+
+{% macro button() %}
+<div class="form">
+	<form action="">
+		<p>
+			Закажите бесплатный
+			выезд мастера
+		</p>
+		<input type="text" value="Ваше имя">
+		<input type="text" value="Ваш телефон">
+		<input type="checkbox" id='#agree'>
+		
+			<label for="agree">
+				Согласен на обработку персональных данных
+			</label>
+		<div class="submit">
+			<input type="submit" value='Вызвать мастера'>
+		</div>	
+</form>
+</div>
+{% endmacro %}
+
+{% macro container(man, caption, p, p1) %}
+	<div class="container">
+
+		{% if man == 'man1' %}
+		<img src="../img/{{ man }}.png" alt="{{ man }}" class='{{ man }}'>
+		<div class="slide-part">
+			<div class="text-block">
+				<div class="caption">
+				{{ caption }}
+				</div>
+				<p class="paragraph">
+					{{ p }}
+					<br>
+					{{ p1 }}
+				</p>
+			</div>
+			{{ button() }}
+		</div>
+
+		{% elseif man == 'man2' %}
+		<img src="../img/{{ man }}.png" alt="{{ man }}" class='{{ man }}'>
+		<img src="../img/bg4.png" alt="bg4" class='bg4'>
+		<div class="block">
+			<div class="caption">
+				{{ caption }}
+			</div>
+			<p class="p2">
+				{{ p }}
+			</p>
+			<div class="botul">
+				{{ button() }}
+				{{ ul1() }}
+			</div>
+		</div>
+
+		{% elseif man == 'man3' %}
+		<img src="../img/{{ man }}.png" alt="{{ man }}" class='{{ man }}'>
+			{{ ul1() }}
+			{{ ul2() }}
+
+		{% elseif man == 'car' %}
+		<img src="../img/{{ man }}.png" alt="{{ man }}" class='{{ man }}'>
+
+		<div class="block">
+			<div class="caption">
+				{{ caption }}
+			</div>
+			<p class="p2">
+				{{ p }}
+			</p>
+			<p class="p1">
+				Самым востребованным и экономически выгодным является пневматический прокол. В компании «КрымКаналСервис» при проведении работ такого вида мы используем Крот. Этот аппарат хорошо себя показал при любом виде горизонтальной проходки с футляром.
+			</p>
+			<div class="gallery">
+				<div class="p2">Фотографии нашего оборудования:</div>
+				<div class="image">
+					{% for i in range(0,8) %}
+						<img src="../img/{{ i }}.png" alt="photo {{ i }}" width="258px" height="170px" class="photo">
+					{% endfor %}
+				</div>
+			</div>
+		{% endif %}
+	</div>
+{% endmacro %}

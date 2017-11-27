@@ -1,0 +1,43 @@
+{% macro card() %}
+	<div class="card-block">			
+		{% set arr = {'size' : 'Все оборудование в наличии', 'pipe' : 'Работаем с любыми трубами', 'practice' : 'Опыт работы в сфере более10 лет', 'crew' : 'Бригада, состоящая из профессионалов', 'install' : 'Проводим монтаж трубопроводов'} %}
+		{% for img, p in arr %}
+		<div class="card">
+		<img src="../img/{{ img }}.png" alt="{{ img }}">
+		<div class="p">{{ p }}</div>
+		<div class="p1">Каждый раз, смотря на плохой ремонт, вы испытаете чувство разочарования, а при несоблюдении — проблемы</div>
+		</div>
+	{% endfor %}		
+	<img src="../img/Krot2.png" alt="Krot2" class="Krot2">
+	</div>
+{% endmacro %}
+
+{% macro card1(p1) %}
+	<div class="card-block">
+	{% set arr =  [
+			[ 'proch', 'Прочистка канализаций', 'от 600 руб. за метр погонный'], ['watersupply', 'Монтаж сис-м водоснабжения', 'от 1 800 руб. за метр погонный'], ['sewarge', 'Монтаж сис-м канализации', 'от 3 000 руб. за метр погонный', 'расчёт стоимости по проекту'], ['track', 'Монтаж тепло-трасс'], ['pipeline', 'Телеинспекция трубопроводов', 'от 200 руб. за метр погонный'], ['emergency', 'Вызов аварийной бригады', 'от 1 000 руб. за вызов' ] ] %}
+		{% for img, p2, p1 in arr %}
+		<div class="card">
+			<div class="shadow-block"></div>
+				<img src="../img/{{ img }}.png" alt="{{ img }}" width="355px">
+				<div class="p2">
+					{{ p2 }}
+				</div>
+				<div class="p1">{{ p1 }}</div>
+				
+				{% if img == 'proch' %}
+					<div class="p3">Подробнее</div>
+				{% endif %}
+			</div>
+		{% endfor %}
+	</div>
+{% endmacro %}
+
+{% macro caption(caption) %}
+	<div class="caption">{{ caption }}</div>
+		{% if caption == 'Почему выбирают нас:' %}
+				{{ card() }}
+		{% elseif caption == 'Что именно мы делаем:' %}
+				{{ card1() }}
+		{% endif %}
+{% endmacro %}

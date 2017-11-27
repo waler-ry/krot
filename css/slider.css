@@ -1,0 +1,85 @@
+.form {
+  width: 397px;
+  background-color: #ffffff;
+  padding: 27px;
+  box-sizing: border-box; }
+  .form form {
+    margin-top: 6px; }
+  .form p {
+    margin-bottom: 19px; }
+  .form input:not([type='checkbox']) {
+    width: 86%;
+    border-radius: 4px;
+    background-color: #f7f7f7; }
+  .form input[type='checkbox'] {
+    position: relative;
+    float: left;
+    margin-right: 9px;
+    margin-left: 3px; }
+    .form input[type='checkbox']:before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      border: 1px solid #a8a8a8;
+      border-radius: 2px;
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0px;
+      background-color: #ffffff; }
+  .form input[type='text'] {
+    padding: 12px 14px;
+    margin-left: 3px; }
+  .form input {
+    margin-bottom: 26px; }
+  .form input[type='submit'] {
+    width: 213px;
+    height: 46px;
+    background-color: #ffc100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: #ffc100;
+    position: absolute;
+    top: -4px;
+    cursor: pointer; }
+  .form .submit {
+    width: 211px;
+    height: 45px;
+    background-color: #ff8b00;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 11px;
+    margin: 24px auto 9px; }
+
+.container {
+  min-height: 463px;
+  max-width: 100%;
+  background: #ece9e2 url("../img/bg1.png") no-repeat -162% 36%;
+  position: relative;
+  padding-top: 49px; }
+  .container .text-block {
+    display: flex;
+    flex-direction: column;
+    padding-top: 79px; }
+  .container .caption {
+    float: left;
+    width: 70%;
+    margin-bottom: 9px;
+    margin-left: -2px; }
+  .container .paragraph {
+    float: left;
+    width: 54%; }
+  .container .form {
+    float: right; }
+  .container .slide-part {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding-right: 1px; }
+  .container .man1 {
+    position: absolute;
+    top: 42px;
+    left: calc(50% - 113px); }

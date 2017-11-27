@@ -1,0 +1,67 @@
+<header>
+	<div class="top">
+		<div class="top-part">
+			<div class="icons">
+				<div class="logo">
+					<img src="../img/logo.png" alt="logo" class="Krot">
+				</div>
+				<div class="services">
+					<div class="img-block">
+						<img src="../img/vk.png" alt="vk">
+					</div>					
+					<div class="text">
+						Наша группа
+						<br><span>vkontakte.ru</span>
+					</div>
+				</div>
+				<div class="services">
+					<div class="img-block">
+						<img src="../img/e-mail.png" alt="e-mail">
+					</div>					
+					<div class="text">
+						Наш E-mail
+						<br><span>oookks@list.ru</span>
+					</div>
+				</div>
+				<div class="services phone">
+					<div class="img-block">
+						<img src="../img/phone.png" alt="phone">
+					</div>					
+					<div class="text">
+						Наш телефон
+						<br><span>+7 (978) 884-84-18</span>
+					</div>
+				</div>
+				<a href="">
+					<div class="call">
+						<div class="button">Заказать звонок</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>	
+	<!-- menu -->
+	<div class="bottom">
+		<div class="menu">
+			{% set menu = ['Главная', 'Наши услуги', 'Наш прайс', 'Оборудование', 'Преимущества', 'Контакты'] %}
+			{% for mItem in menu %}
+				<div class="dark"></div>
+			<a href="">
+				<div class="menu-items">{{ mItem }}
+					{% if mItem == 'Наши услуги' %}
+			<div class="drop-wrapper">
+				<div class="drop">
+					{% set a = ['Прочистка канализации', 'Монтаж систем водоснабжения', 'Монтаж систем канализации', 'Монтаж тепло-трасс', 'Телеинспекция трубопроводов', 'Вызов аварийной бригад'] %}
+					{% for item in a %}
+						<div class="item">{{ item }} <div class="rsaquo"> ›</div></div>
+					{% endfor %}
+				</div>
+			</div>
+					{% endif %}
+				</div>
+			</a>
+			{% endfor %}			
+			<div class="dark"></div>
+		</div>
+	</div>
+</header>
